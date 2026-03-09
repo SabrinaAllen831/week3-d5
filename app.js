@@ -9,3 +9,15 @@ for (let i = 0; i < scores.length; i++) {
     totalScore += scores[i];
 }
 console.log(totalScore)
+
+const halfScores = scores.map((score)=>{
+return score / 2
+})
+
+console.log(halfScores)
+
+const doubleScores = scores.map((score)=>{
+return score * 2
+})
+
+console.log(doubleScores)
